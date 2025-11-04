@@ -1,12 +1,12 @@
-module github.com/click33/sa-token-go/integrations/echo
+module suwei.sa_token/integrations/echo
 
 go 1.23.0
 
 toolchain go1.24.1
 
 require (
-	github.com/click33/sa-token-go/core v0.1.2
-	github.com/click33/sa-token-go/stputil v0.0.0-20251017234446-3cf2bdee68cc
+	suwei.sa_token/core v0.1.2
+	suwei.sa_token/stputil v0.0.0-20251017234446-3cf2bdee68cc
 	github.com/labstack/echo/v4 v4.11.4
 )
 
@@ -27,4 +27,4 @@ require (
 	golang.org/x/text v0.28.0 // indirect
 )
 
-replace github.com/click33/sa-token-go/core => ../../core
+replace suwei.sa_token/core => ../../core

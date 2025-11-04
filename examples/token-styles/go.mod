@@ -1,11 +1,11 @@
-module github.com/click33/sa-token-go/examples/token-styles
+module suwei.sa_token/examples/token-styles
 
 go 1.21
 
 require (
-	github.com/click33/sa-token-go/core v0.1.2
-	github.com/click33/sa-token-go/storage/memory v0.1.2
-	github.com/click33/sa-token-go/stputil v0.1.2
+	suwei.sa_token/core v0.1.2
+	suwei.sa_token/storage/memory v0.1.2
+	suwei.sa_token/stputil v0.1.2
 )
 
 require (
@@ -14,7 +14,7 @@ require (
 )
 
 replace (
-	github.com/click33/sa-token-go/core => ../../core
-	github.com/click33/sa-token-go/storage/memory => ../../storage/memory
-	github.com/click33/sa-token-go/stputil => ../../stputil
+	suwei.sa_token/core => ../../core
+	suwei.sa_token/storage/memory => ../../storage/memory
+	suwei.sa_token/stputil => ../../stputil
 )

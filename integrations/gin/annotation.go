@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/click33/sa-token-go/stputil"
+	"suwei.sa_token/stputil"
 	ginfw "github.com/gin-gonic/gin"
 )
 

@@ -8,8 +8,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/click33/sa-token-go/core/config"
-	"github.com/click33/sa-token-go/core/utils"
+	"suwei.sa_token/core/config"
+	"suwei.sa_token/core/utils"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/google/uuid"
 )

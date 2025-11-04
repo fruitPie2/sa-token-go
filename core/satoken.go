@@ -3,17 +3,17 @@ package core
 import (
 	"time"
 
-	"github.com/click33/sa-token-go/core/adapter"
-	"github.com/click33/sa-token-go/core/builder"
-	"github.com/click33/sa-token-go/core/config"
-	"github.com/click33/sa-token-go/core/context"
-	"github.com/click33/sa-token-go/core/listener"
-	"github.com/click33/sa-token-go/core/manager"
-	"github.com/click33/sa-token-go/core/oauth2"
-	"github.com/click33/sa-token-go/core/security"
-	"github.com/click33/sa-token-go/core/session"
-	"github.com/click33/sa-token-go/core/token"
-	"github.com/click33/sa-token-go/core/utils"
+	"suwei.sa_token/core/adapter"
+	"suwei.sa_token/core/builder"
+	"suwei.sa_token/core/config"
+	"suwei.sa_token/core/context"
+	"suwei.sa_token/core/listener"
+	"suwei.sa_token/core/manager"
+	"suwei.sa_token/core/oauth2"
+	"suwei.sa_token/core/security"
+	"suwei.sa_token/core/session"
+	"suwei.sa_token/core/token"
+	"suwei.sa_token/core/utils"
 )
 
 // Version Sa-Token-Go version | Sa-Token-Go版本

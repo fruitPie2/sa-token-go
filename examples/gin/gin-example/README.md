@@ -27,9 +27,9 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    "github.com/click33/sa-token-go/core"
-    sagin "github.com/click33/sa-token-go/integrations/gin"
-    "github.com/click33/sa-token-go/storage/memory"
+    "suwei.sa_token/core"
+    sagin "suwei.sa_token/integrations/gin"
+    "suwei.sa_token/storage/memory"
 )
 
 func main() {
@@ -60,10 +60,10 @@ import (
     "net/http"
     
     "github.com/gin-gonic/gin"
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    sagin "github.com/click33/sa-token-go/integrations/gin"
-    "github.com/click33/sa-token-go/storage/memory"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    sagin "suwei.sa_token/integrations/gin"
+    "suwei.sa_token/storage/memory"
 )
 
 func init() {

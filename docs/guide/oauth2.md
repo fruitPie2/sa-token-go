@@ -51,9 +51,9 @@ OAuth2 is an authorization framework that allows third-party applications to acc
 
 ```go
 import (
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/memory"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/memory"
 )
 
 func init() {
@@ -454,7 +454,7 @@ errors := map[string]string{
 
 ```go
 import (
-    "github.com/click33/sa-token-go/storage/redis"
+    "suwei.sa_token/storage/redis"
 )
 
 func init() {

@@ -87,9 +87,9 @@ e.g., 7Kx9mN2pQr4
 ### Installation
 
 ```bash
-go get github.com/click33/sa-token-go/core
-go get github.com/click33/sa-token-go/stputil
-go get github.com/click33/sa-token-go/storage/memory
+go get suwei.sa_token/core
+go get suwei.sa_token/stputil
+go get suwei.sa_token/storage/memory
 ```
 
 ### Run the Example
@@ -151,9 +151,9 @@ Sa-Token-Go Token Styles Demo
 
 ```go
 import (
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/memory"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/memory"
 )
 
 func init() {

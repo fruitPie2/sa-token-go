@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/click33/sa-token-go/core"
+	"suwei.sa_token/core"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"
 )

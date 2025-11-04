@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/click33/sa-token-go/core"
-	"github.com/click33/sa-token-go/storage/redis"
-	"github.com/click33/sa-token-go/stputil"
+	"suwei.sa_token/core"
+	"suwei.sa_token/storage/redis"
+	"suwei.sa_token/stputil"
 	goredis "github.com/redis/go-redis/v9"
 )
 

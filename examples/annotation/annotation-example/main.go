@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/click33/sa-token-go/core"
-	sagin "github.com/click33/sa-token-go/integrations/gin"
-	"github.com/click33/sa-token-go/storage/memory"
-	"github.com/click33/sa-token-go/stputil"
 	"github.com/gin-gonic/gin"
+	"suwei.sa_token/core"
+	sagin "suwei.sa_token/integrations/gin"
+	"suwei.sa_token/storage/memory"
+	"suwei.sa_token/stputil"
 )
 
 func init() {

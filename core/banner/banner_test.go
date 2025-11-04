@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/click33/sa-token-go/core/config"
+	"suwei.sa_token/core/config"
 )
 
 // captureOutput captures stdout output for testing

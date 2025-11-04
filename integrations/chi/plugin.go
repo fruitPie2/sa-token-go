@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/click33/sa-token-go/core"
+	"suwei.sa_token/core"
 )
 
 // Plugin Chi plugin for Sa-Token | Chi插件

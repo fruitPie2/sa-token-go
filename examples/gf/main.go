@@ -3,8 +3,8 @@ package main
 import (
 	"net/http"
 
-	sagin "github.com/click33/sa-token-go/integrations/gf"
-	"github.com/click33/sa-token-go/storage/memory"
+	sagin "suwei.sa_token/integrations/gf"
+	"suwei.sa_token/storage/memory"
 
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/net/ghttp"

@@ -1,10 +1,10 @@
-module github.com/click33/sa-token-go/integrations/gf
+module suwei.sa_token/integrations/gf
 
 go 1.24.1
 
 require (
-	github.com/click33/sa-token-go/core v0.1.2
-	github.com/click33/sa-token-go/stputil v0.1.2
+	suwei.sa_token/core v0.1.2
+	suwei.sa_token/stputil v0.1.2
 	github.com/gogf/gf/v2 v2.9.4
 )
 

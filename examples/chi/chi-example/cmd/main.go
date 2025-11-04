@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/click33/sa-token-go/core"
-	sachi "github.com/click33/sa-token-go/integrations/chi"
-	"github.com/click33/sa-token-go/storage/memory"
+	"suwei.sa_token/core"
+	sachi "suwei.sa_token/integrations/chi"
+	"suwei.sa_token/storage/memory"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 )

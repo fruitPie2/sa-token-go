@@ -25,7 +25,7 @@ Sa-Token-Go provides a powerful event system for monitoring authentication and a
 ### Create Event Manager
 
 ```go
-import "github.com/click33/sa-token-go/core"
+import "suwei.sa_token/core"
 
 eventMgr := core.NewEventManager()
 ```

@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/click33/sa-token-go/core/adapter"
+	"suwei.sa_token/core/adapter"
 )
 
 // OAuth2 Authorization Code Flow Implementation

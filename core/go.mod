@@ -1,4 +1,4 @@
-module github.com/click33/sa-token-go/core
+module suwei.sa_token/core
 
 go 1.21
 

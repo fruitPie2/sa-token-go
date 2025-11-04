@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/click33/sa-token-go/core/manager"
-	"github.com/click33/sa-token-go/core/oauth2"
-	"github.com/click33/sa-token-go/core/security"
-	"github.com/click33/sa-token-go/core/session"
+	"suwei.sa_token/core/manager"
+	"suwei.sa_token/core/oauth2"
+	"suwei.sa_token/core/security"
+	"suwei.sa_token/core/session"
 )
 
 // Global Manager instance | 全局Manager实例

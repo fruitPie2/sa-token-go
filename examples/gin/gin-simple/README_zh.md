@@ -4,7 +4,7 @@
 
 ## 特性
 
-✅ **单一导入** - 只需要 `github.com/click33/sa-token-go/integrations/gin`  
+✅ **单一导入** - 只需要 `suwei.sa_token/integrations/gin`  
 ✅ **完整功能** - 访问所有 core 和 stputil 的功能  
 ✅ **简洁 API** - 干净易用  
 
@@ -13,8 +13,8 @@
 ### 1. 安装依赖
 
 ```bash
-go get github.com/click33/sa-token-go/integrations/gin@v0.1.0
-go get github.com/click33/sa-token-go/storage/memory@v0.1.0
+go get suwei.sa_token/integrations/gin@v0.1.0
+go get suwei.sa_token/storage/memory@v0.1.0
 go get github.com/gin-gonic/gin
 ```
 
@@ -63,9 +63,9 @@ curl -X POST -H "token: YOUR_TOKEN" http://localhost:8080/api/kickout/1000
 
 ```go
 import (
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/integrations/gin"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/integrations/gin"
 )
 
 config := core.DefaultConfig()
@@ -78,7 +78,7 @@ token, _ := stputil.Login(userID)
 
 ```go
 import (
-    sagin "github.com/click33/sa-token-go/integrations/gin"
+    sagin "suwei.sa_token/integrations/gin"
 )
 
 config := sagin.DefaultConfig()

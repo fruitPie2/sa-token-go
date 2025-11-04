@@ -23,9 +23,9 @@ A replay attack occurs when an attacker intercepts and resends legitimate reques
 
 ```go
 import (
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/memory"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/memory"
 )
 
 func init() {
@@ -64,7 +64,7 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
-    "github.com/click33/sa-token-go/stputil"
+    "suwei.sa_token/stputil"
 )
 
 func main() {

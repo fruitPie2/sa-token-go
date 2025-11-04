@@ -1,12 +1,12 @@
-module github.com/click33/sa-token-go/examples/annotation-example
+module suwei.sa_token/examples/annotation-example
 
 go 1.21
 
 require (
-	github.com/click33/sa-token-go/core v0.1.2
-	github.com/click33/sa-token-go/integrations/gin v0.1.2
-	github.com/click33/sa-token-go/storage/memory v0.1.2
-	github.com/click33/sa-token-go/stputil v0.1.2
+	suwei.sa_token/core v0.1.2
+	suwei.sa_token/integrations/gin v0.1.2
+	suwei.sa_token/storage/memory v0.1.2
+	suwei.sa_token/stputil v0.1.2
 	github.com/gin-gonic/gin v1.10.0
 )
 
@@ -41,8 +41,8 @@ require (
 )
 
 replace (
-	github.com/click33/sa-token-go/core => ../../../core
-	github.com/click33/sa-token-go/integrations/gin => ../../../integrations/gin
-	github.com/click33/sa-token-go/storage/memory => ../../../storage/memory
-	github.com/click33/sa-token-go/stputil => ../../../stputil
+	suwei.sa_token/core => ../../../core
+	suwei.sa_token/integrations/gin => ../../../integrations/gin
+	suwei.sa_token/storage/memory => ../../../storage/memory
+	suwei.sa_token/stputil => ../../../stputil
 )

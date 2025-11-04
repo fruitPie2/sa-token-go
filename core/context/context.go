@@ -3,8 +3,8 @@ package context
 import (
 	"strings"
 
-	"github.com/click33/sa-token-go/core/adapter"
-	"github.com/click33/sa-token-go/core/manager"
+	"suwei.sa_token/core/adapter"
+	"suwei.sa_token/core/manager"
 )
 
 const (

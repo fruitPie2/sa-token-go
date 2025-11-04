@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/click33/sa-token-go/core/adapter"
-	"github.com/click33/sa-token-go/core/banner"
-	"github.com/click33/sa-token-go/core/config"
-	"github.com/click33/sa-token-go/core/manager"
+	"suwei.sa_token/core/adapter"
+	"suwei.sa_token/core/banner"
+	"suwei.sa_token/core/config"
+	"suwei.sa_token/core/manager"
 )
 
 // Builder Sa-Token builder for fluent configuration | Sa-Token构建器，用于流式配置

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/click33/sa-token-go/core/adapter"
-	"github.com/click33/sa-token-go/core/config"
-	"github.com/click33/sa-token-go/core/token"
+	"suwei.sa_token/core/adapter"
+	"suwei.sa_token/core/config"
+	"suwei.sa_token/core/token"
 )
 
 // Refresh Token Implementation

@@ -10,9 +10,9 @@ StpUtil 是 Sa-Token-Go 的全局工具类，提供了所有核心功能的便�
 
 ```go
 import (
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/memory"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/memory"
 )
 
 func init() {

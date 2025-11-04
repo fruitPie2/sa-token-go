@@ -1,11 +1,11 @@
-module github.com/click33/sa-token-go/examples/chi-example
+module suwei.sa_token/examples/chi-example
 
 go 1.21
 
 require (
-	github.com/click33/sa-token-go/core v0.1.2
-	github.com/click33/sa-token-go/integrations/chi v0.1.2
-	github.com/click33/sa-token-go/storage/memory v0.1.2
+	suwei.sa_token/core v0.1.2
+	suwei.sa_token/integrations/chi v0.1.2
+	suwei.sa_token/storage/memory v0.1.2
 	github.com/go-chi/chi/v5 v5.0.11
 )
 
@@ -15,7 +15,7 @@ require (
 )
 
 replace (
-	github.com/click33/sa-token-go/core => ../../../core
-	github.com/click33/sa-token-go/integrations/chi => ../../../integrations/chi
-	github.com/click33/sa-token-go/storage/memory => ../../../storage/memory
+	suwei.sa_token/core => ../../../core
+	suwei.sa_token/integrations/chi => ../../../integrations/chi
+	suwei.sa_token/storage/memory => ../../../storage/memory
 )

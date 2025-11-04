@@ -34,38 +34,38 @@
 
 ```bash
 # 只导入框架集成包（自动包含 core + stputil）
-go get github.com/click33/sa-token-go/integrations/gin@v0.1.2    # Gin框架
+go get suwei.sa_token/integrations/gin@v0.1.2    # Gin框架
 # 或
-go get github.com/click33/sa-token-go/integrations/echo@v0.1.2   # Echo框架
+go get suwei.sa_token/integrations/echo@v0.1.2   # Echo框架
 # 或
-go get github.com/click33/sa-token-go/integrations/fiber@v0.1.2  # Fiber框架
+go get suwei.sa_token/integrations/fiber@v0.1.2  # Fiber框架
 # 或
-go get github.com/click33/sa-token-go/integrations/chi@v0.1.2    # Chi框架
+go get suwei.sa_token/integrations/chi@v0.1.2    # Chi框架
 # 或
-go get github.com/click33/sa-token-go/integrations/gf@v0.1.2     # GoFrame框架
+go get suwei.sa_token/integrations/gf@v0.1.2     # GoFrame框架
 
 # 存储模块（选一个）
-go get github.com/click33/sa-token-go/storage/memory@v0.1.2  # 内存存储（开发）
-go get github.com/click33/sa-token-go/storage/redis@v0.1.2   # Redis存储（生产）
+go get suwei.sa_token/storage/memory@v0.1.2  # 内存存储（开发）
+go get suwei.sa_token/storage/redis@v0.1.2   # Redis存储（生产）
 ```
 
 #### 方式二：分开导入
 
 ```bash
 # 核心模块
-go get github.com/click33/sa-token-go/core@v0.1.2
-go get github.com/click33/sa-token-go/stputil@v0.1.2
+go get suwei.sa_token/core@v0.1.2
+go get suwei.sa_token/stputil@v0.1.2
 
 # 存储模块（选一个）
-go get github.com/click33/sa-token-go/storage/memory@v0.1.2  # 内存存储（开发）
-go get github.com/click33/sa-token-go/storage/redis@v0.1.2   # Redis存储（生产）
+go get suwei.sa_token/storage/memory@v0.1.2  # 内存存储（开发）
+go get suwei.sa_token/storage/redis@v0.1.2   # Redis存储（生产）
 
 # 框架集成（可选）
-go get github.com/click33/sa-token-go/integrations/gin@v0.1.2    # Gin框架
-go get github.com/click33/sa-token-go/integrations/echo@v0.1.2   # Echo框架
-go get github.com/click33/sa-token-go/integrations/fiber@v0.1.2  # Fiber框架
-go get github.com/click33/sa-token-go/integrations/chi@v0.1.2    # Chi框架
-go get github.com/click33/sa-token-go/integrations/gf@v0.1.2     # GoFrame框架
+go get suwei.sa_token/integrations/gin@v0.1.2    # Gin框架
+go get suwei.sa_token/integrations/echo@v0.1.2   # Echo框架
+go get suwei.sa_token/integrations/fiber@v0.1.2  # Fiber框架
+go get suwei.sa_token/integrations/chi@v0.1.2    # Chi框架
+go get suwei.sa_token/integrations/gf@v0.1.2     # GoFrame框架
 ```
 
 ### ⚡ 超简洁使用（一行初始化）
@@ -74,9 +74,9 @@ go get github.com/click33/sa-token-go/integrations/gf@v0.1.2     # GoFrame框架
 package main
 
 import (
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/memory"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/memory"
 )
 
 func init() {
@@ -239,8 +239,8 @@ remainingTime, _ := stputil.GetDisableTime(1000)
 ```go
 import (
     "github.com/gin-gonic/gin"
-    sagin "github.com/click33/sa-token-go/integrations/gin"  // 只需这一个导入！
-    "github.com/click33/sa-token-go/storage/memory"
+    sagin "suwei.sa_token/integrations/gin"  // 只需这一个导入！
+    "suwei.sa_token/storage/memory"
 )
 
 func main() {
@@ -285,7 +285,7 @@ func main() {
 **使用示例：**
 
 ```go
-import sagin "github.com/click33/sa-token-go/integrations/gin"
+import sagin "suwei.sa_token/integrations/gin"
 
 func main() {
     r := gin.Default()
@@ -322,8 +322,8 @@ func main() {
 import (
     "github.com/gogf/gf/v2/frame/g"
     "github.com/gogf/gf/v2/net/ghttp"
-    sagf "github.com/click33/sa-token-go/integrations/gf"  // 只需这一个导入！
-    "github.com/click33/sa-token-go/storage/memory"
+    sagf "suwei.sa_token/integrations/gf"  // 只需这一个导入！
+    "suwei.sa_token/storage/memory"
 )
 
 func main() {
@@ -360,15 +360,15 @@ func main() {
 
 ```go
 // Echo
-import saecho "github.com/click33/sa-token-go/integrations/echo"
+import saecho "suwei.sa_token/integrations/echo"
 e.GET("/user", saecho.CheckLogin(), handler)
 
 // Fiber
-import safiber "github.com/click33/sa-token-go/integrations/fiber"
+import safiber "suwei.sa_token/integrations/fiber"
 app.Get("/user", safiber.CheckLogin(), handler)
 
 // Chi
-import sachi "github.com/click33/sa-token-go/integrations/chi"
+import sachi "suwei.sa_token/integrations/chi"
 r.Get("/user", sachi.CheckLogin(), handler)
 ```
 
@@ -614,7 +614,7 @@ Apache License 2.0
 ## 📞 支持
 
 - 📧 邮箱: <support@sa-token-go.dev>
-- 💬 问题反馈: [GitHub Issues](https://github.com/click33/sa-token-go/issues)
+- 💬 问题反馈: [GitHub Issues](https://suwei.sa_token/issues)
 - 📖 文档: [docs/](docs/)
 
 ---

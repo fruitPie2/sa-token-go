@@ -3,9 +3,9 @@ package main
 import (
 	"log"
 
-	"github.com/click33/sa-token-go/core"
-	saecho "github.com/click33/sa-token-go/integrations/echo"
-	"github.com/click33/sa-token-go/storage/memory"
+	"suwei.sa_token/core"
+	saecho "suwei.sa_token/integrations/echo"
+	"suwei.sa_token/storage/memory"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )

@@ -1,12 +1,12 @@
-module github.com/click33/sa-token-go/integrations/fiber
+module suwei.sa_token/integrations/fiber
 
 go 1.23.0
 
 toolchain go1.24.1
 
 require (
-	github.com/click33/sa-token-go/core v0.1.2
-	github.com/click33/sa-token-go/stputil v0.0.0-20251017234446-3cf2bdee68cc
+	suwei.sa_token/core v0.1.2
+	suwei.sa_token/stputil v0.0.0-20251017234446-3cf2bdee68cc
 	github.com/gofiber/fiber/v2 v2.52.0
 )
 
@@ -25,4 +25,4 @@ require (
 	golang.org/x/sys v0.35.0 // indirect
 )
 
-replace github.com/click33/sa-token-go/core => ../../core
+replace suwei.sa_token/core => ../../core

@@ -5,12 +5,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/click33/sa-token-go/core/adapter"
-	"github.com/click33/sa-token-go/core/config"
-	"github.com/click33/sa-token-go/core/oauth2"
-	"github.com/click33/sa-token-go/core/security"
-	"github.com/click33/sa-token-go/core/session"
-	"github.com/click33/sa-token-go/core/token"
+	"suwei.sa_token/core/adapter"
+	"suwei.sa_token/core/config"
+	"suwei.sa_token/core/oauth2"
+	"suwei.sa_token/core/security"
+	"suwei.sa_token/core/session"
+	"suwei.sa_token/core/token"
 )
 
 // Constants for storage keys and default values | 存储键和默认值常量

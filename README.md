@@ -34,37 +34,37 @@ A lightweight, high-performance Go authentication and authorization framework, i
 
 ```bash
 # Import only the framework integration (includes core + stputil automatically)
-go get github.com/click33/sa-token-go/integrations/gin@v0.1.2    # Gin framework
+go get suwei.sa_token/integrations/gin@v0.1.2    # Gin framework
 # or
-go get github.com/click33/sa-token-go/integrations/echo@v0.1.2   # Echo framework
+go get suwei.sa_token/integrations/echo@v0.1.2   # Echo framework
 # or
-go get github.com/click33/sa-token-go/integrations/fiber@v0.1.2  # Fiber framework
+go get suwei.sa_token/integrations/fiber@v0.1.2  # Fiber framework
 # or
-go get github.com/click33/sa-token-go/integrations/chi@v0.1.2    # Chi framework
+go get suwei.sa_token/integrations/chi@v0.1.2    # Chi framework
 # or
-go get github.com/click33/sa-token-go/integrations/gf@v0.1.2     # GoFrame framework
+go get suwei.sa_token/integrations/gf@v0.1.2     # GoFrame framework
 
 # Storage module (choose one)
-go get github.com/click33/sa-token-go/storage/memory@v0.1.2  # Memory storage (dev)
-go get github.com/click33/sa-token-go/storage/redis@v0.1.2   # Redis storage (prod)
+go get suwei.sa_token/storage/memory@v0.1.2  # Memory storage (dev)
+go get suwei.sa_token/storage/redis@v0.1.2   # Redis storage (prod)
 ```
 
 #### Option 2: Separate Import
 
 ```bash
 # Core modules
-go get github.com/click33/sa-token-go/core@v0.1.2
-go get github.com/click33/sa-token-go/stputil@v0.1.2
+go get suwei.sa_token/core@v0.1.2
+go get suwei.sa_token/stputil@v0.1.2
 
 # Storage module (choose one)
-go get github.com/click33/sa-token-go/storage/memory@v0.1.2  # Memory storage (dev)
-go get github.com/click33/sa-token-go/storage/redis@v0.1.2   # Redis storage (prod)
+go get suwei.sa_token/storage/memory@v0.1.2  # Memory storage (dev)
+go get suwei.sa_token/storage/redis@v0.1.2   # Redis storage (prod)
 
 # Framework integration (optional)
-go get github.com/click33/sa-token-go/integrations/gin@v0.1.2    # Gin framework
-go get github.com/click33/sa-token-go/integrations/echo@v0.1.2   # Echo framework
-go get github.com/click33/sa-token-go/integrations/fiber@v0.1.2  # Fiber framework
-go get github.com/click33/sa-token-go/integrations/chi@v0.1.2    # Chi framework
+go get suwei.sa_token/integrations/gin@v0.1.2    # Gin framework
+go get suwei.sa_token/integrations/echo@v0.1.2   # Echo framework
+go get suwei.sa_token/integrations/fiber@v0.1.2  # Fiber framework
+go get suwei.sa_token/integrations/chi@v0.1.2    # Chi framework
 ```
 
 ### ⚡ Minimal Usage (One-line Initialization)
@@ -73,9 +73,9 @@ go get github.com/click33/sa-token-go/integrations/chi@v0.1.2    # Chi framework
 package main
 
 import (
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/memory"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/memory"
 )
 
 func init() {
@@ -238,8 +238,8 @@ remainingTime, _ := stputil.GetDisableTime(1000)
 ```go
 import (
     "github.com/gin-gonic/gin"
-    sagin "github.com/click33/sa-token-go/integrations/gin"  // Only this import needed!
-    "github.com/click33/sa-token-go/storage/memory"
+    sagin "suwei.sa_token/integrations/gin"  // Only this import needed!
+    "suwei.sa_token/storage/memory"
 )
 
 func main() {
@@ -284,7 +284,7 @@ func main() {
 **Usage example:**
 
 ```go
-import sagin "github.com/click33/sa-token-go/integrations/gin"
+import sagin "suwei.sa_token/integrations/gin"
 
 func main() {
     r := gin.Default()
@@ -321,8 +321,8 @@ func main() {
 import (
     "github.com/gogf/gf/v2/frame/g"
     "github.com/gogf/gf/v2/net/ghttp"
-    sagf "github.com/click33/sa-token-go/integrations/gf"  // Only this import needed!
-    "github.com/click33/sa-token-go/storage/memory"
+    sagf "suwei.sa_token/integrations/gf"  // Only this import needed!
+    "suwei.sa_token/storage/memory"
 )
 
 func main() {
@@ -359,15 +359,15 @@ func main() {
 
 ```go
 // Echo
-import saecho "github.com/click33/sa-token-go/integrations/echo"
+import saecho "suwei.sa_token/integrations/echo"
 e.GET("/user", saecho.CheckLogin(), handler)
 
 // Fiber
-import safiber "github.com/click33/sa-token-go/integrations/fiber"
+import safiber "suwei.sa_token/integrations/fiber"
 app.Get("/user", safiber.CheckLogin(), handler)
 
 // Chi
-import sachi "github.com/click33/sa-token-go/integrations/chi"
+import sachi "suwei.sa_token/integrations/chi"
 r.Get("/user", sachi.CheckLogin(), handler)
 ```
 
@@ -613,7 +613,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 ## 📞 Support
 
 - 📧 Email: <support@sa-token-go.dev>
-- 💬 Issues: [GitHub Issues](https://github.com/click33/sa-token-go/issues)
+- 💬 Issues: [GitHub Issues](https://suwei.sa_token/issues)
 - 📖 Documentation: [docs/](docs/)
 
 ---

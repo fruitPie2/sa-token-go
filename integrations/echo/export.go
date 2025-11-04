@@ -3,8 +3,8 @@ package echo
 import (
 	"time"
 
-	"github.com/click33/sa-token-go/core"
-	"github.com/click33/sa-token-go/stputil"
+	"suwei.sa_token/core"
+	"suwei.sa_token/stputil"
 )
 
 // ============ Re-export core types | 重新导出核心类型 ============

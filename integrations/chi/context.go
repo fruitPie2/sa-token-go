@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/click33/sa-token-go/core/adapter"
+	"suwei.sa_token/core/adapter"
 )
 
 // ChiContext Chi request context adapter | Chi请求上下文适配器

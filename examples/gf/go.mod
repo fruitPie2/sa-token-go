@@ -1,24 +1,24 @@
-module github.com/click33/sa-token-go/examples/gf-example
+module suwei.sa_token/examples/gf-example
 
 go 1.24.1
 
 replace (
-	github.com/click33/sa-token-go/core => ../../core
-	github.com/click33/sa-token-go/integrations/gf => ../../integrations/gf
-	github.com/click33/sa-token-go/storage/memory => ../../storage/memory
+	suwei.sa_token/core => ../../core
+	suwei.sa_token/integrations/gf => ../../integrations/gf
+	suwei.sa_token/storage/memory => ../../storage/memory
 )
 
 require (
-	github.com/click33/sa-token-go/integrations/gf v0.0.0-00010101000000-000000000000
-	github.com/click33/sa-token-go/storage/memory v0.0.0-00010101000000-000000000000
+	suwei.sa_token/integrations/gf v0.0.0-00010101000000-000000000000
+	suwei.sa_token/storage/memory v0.0.0-00010101000000-000000000000
 	github.com/gogf/gf/v2 v2.9.4
 )
 
 require (
 	github.com/BurntSushi/toml v1.5.0 // indirect
 	github.com/clbanning/mxj/v2 v2.7.0 // indirect
-	github.com/click33/sa-token-go/core v0.1.2 // indirect
-	github.com/click33/sa-token-go/stputil v0.1.2 // indirect
+	suwei.sa_token/core v0.1.2 // indirect
+	suwei.sa_token/stputil v0.1.2 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/fatih/color v1.18.0 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect

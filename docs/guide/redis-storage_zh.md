@@ -10,7 +10,7 @@ Redis 存储是生产环境推荐的存储后端。它提供高性能、数据�
 
 ```bash
 # 安装 Redis 存储模块
-go get github.com/click33/sa-token-go/storage/redis
+go get suwei.sa_token/storage/redis
 
 # 安装 Redis 客户端
 go get github.com/redis/go-redis/v9
@@ -42,9 +42,9 @@ package main
 
 import (
     "fmt"
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/redis"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/redis"
 )
 
 func main() {
@@ -119,9 +119,9 @@ stputil.SetManager(
 ```go
 import (
     goredis "github.com/redis/go-redis/v9"
-    "github.com/click33/sa-token-go/storage/redis"
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
+    "suwei.sa_token/storage/redis"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
 )
 
 // 创建自定义 Redis 客户端
@@ -204,9 +204,9 @@ package main
 import (
     "time"
     
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/redis"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/redis"
     goredis "github.com/redis/go-redis/v9"
 )
 
@@ -292,9 +292,9 @@ import (
     "fmt"
     "os"
     
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/redis"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/redis"
 )
 
 func main() {
@@ -337,9 +337,9 @@ import (
     "os"
     "strconv"
     
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/redis"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/redis"
     goredis "github.com/redis/go-redis/v9"
 )
 
@@ -782,10 +782,10 @@ import (
     "time"
 
     "github.com/gin-gonic/gin"
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/redis"
-    sagin "github.com/click33/sa-token-go/integrations/gin"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/redis"
+    sagin "suwei.sa_token/integrations/gin"
     goredis "github.com/redis/go-redis/v9"
 )
 

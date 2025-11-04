@@ -3,7 +3,7 @@ package gin
 import (
 	"net/http"
 
-	"github.com/click33/sa-token-go/core/adapter"
+	"suwei.sa_token/core/adapter"
 	"github.com/gin-gonic/gin"
 )
 

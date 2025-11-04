@@ -27,9 +27,9 @@ package main
 
 import (
     "github.com/gofiber/fiber/v2"
-    "github.com/click33/sa-token-go/core"
-    safiber "github.com/click33/sa-token-go/integrations/fiber"
-    "github.com/click33/sa-token-go/storage/memory"
+    "suwei.sa_token/core"
+    safiber "suwei.sa_token/integrations/fiber"
+    "suwei.sa_token/storage/memory"
 )
 
 func main() {
@@ -61,9 +61,9 @@ package main
 
 import (
     "github.com/gofiber/fiber/v2"
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/memory"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/memory"
 )
 
 func init() {

@@ -27,9 +27,9 @@ package main
 
 import (
     "github.com/labstack/echo/v4"
-    "github.com/click33/sa-token-go/core"
-    saecho "github.com/click33/sa-token-go/integrations/echo"
-    "github.com/click33/sa-token-go/storage/memory"
+    "suwei.sa_token/core"
+    saecho "suwei.sa_token/integrations/echo"
+    "suwei.sa_token/storage/memory"
 )
 
 func main() {
@@ -63,9 +63,9 @@ import (
     "net/http"
     
     "github.com/labstack/echo/v4"
-    "github.com/click33/sa-token-go/core"
-    "github.com/click33/sa-token-go/stputil"
-    "github.com/click33/sa-token-go/storage/memory"
+    "suwei.sa_token/core"
+    "suwei.sa_token/stputil"
+    "suwei.sa_token/storage/memory"
 )
 
 func init() {

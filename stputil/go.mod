@@ -1,12 +1,12 @@
-module github.com/click33/sa-token-go/stputil
+module suwei.sa_token/stputil
 
 go 1.21
 
-require github.com/click33/sa-token-go/core v0.1.2
+require suwei.sa_token/core v0.1.2
 
 require (
 	github.com/golang-jwt/jwt/v5 v5.2.1 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 )
 
-replace github.com/click33/sa-token-go/core => ../core
+replace suwei.sa_token/core => ../core

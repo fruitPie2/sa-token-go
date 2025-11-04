@@ -1,19 +1,19 @@
-module github.com/click33/sa-token-go/examples/gin/gin-simple
+module suwei.sa_token/examples/gin/gin-simple
 
 go 1.23.0
 
 toolchain go1.24.1
 
 require (
-	github.com/click33/sa-token-go/integrations/gin v0.1.2
-	github.com/click33/sa-token-go/storage/memory v0.1.2
+	suwei.sa_token/integrations/gin v0.1.2
+	suwei.sa_token/storage/memory v0.1.2
 	github.com/gin-gonic/gin v1.10.0
 )
 
 require (
 	github.com/bytedance/sonic v1.11.6 // indirect
-	github.com/click33/sa-token-go/core v0.1.2 // indirect
-	github.com/click33/sa-token-go/stputil v0.1.2 // indirect
+	suwei.sa_token/core v0.1.2 // indirect
+	suwei.sa_token/stputil v0.1.2 // indirect
 	github.com/cloudwego/base64x v0.1.4 // indirect
 	github.com/cloudwego/iasm v0.2.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
@@ -44,8 +44,8 @@ require (
 )
 
 replace (
-	github.com/click33/sa-token-go/core => ../../../core
-	github.com/click33/sa-token-go/integrations/gin => ../../../integrations/gin
-	github.com/click33/sa-token-go/storage/memory => ../../../storage/memory
-	github.com/click33/sa-token-go/stputil => ../../../stputil
+	suwei.sa_token/core => ../../../core
+	suwei.sa_token/integrations/gin => ../../../integrations/gin
+	suwei.sa_token/storage/memory => ../../../storage/memory
+	suwei.sa_token/stputil => ../../../stputil
 )

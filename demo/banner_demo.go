@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/click33/sa-token-go/core/banner"
-	"github.com/click33/sa-token-go/core/config"
+	"suwei.sa_token/core/banner"
+	"suwei.sa_token/core/config"
 )
 
 func main() {

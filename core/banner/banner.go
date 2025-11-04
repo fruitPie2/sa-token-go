@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/click33/sa-token-go/core/config"
+	"suwei.sa_token/core/config"
 )
 
 // Version version number | 版本号
